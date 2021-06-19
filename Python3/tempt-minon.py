@@ -7,7 +7,9 @@ def minion_game(string):
     for i in range(len(s)):
         if s[i] in vowels:
             kc += (len(s)-i)
+            # print(len(s)-i)
         else:
+            print(len(s)-i)
             sc += (len(s)-i)
 
     if kc > sc:
